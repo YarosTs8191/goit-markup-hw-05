@@ -487,15 +487,16 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-form">
-            <label for="footer-form-email" class="footer-label"></label>
-            <input
-              type="email"
-              name="footer-form-email"
-              class="footer-form-input"
-              placeholder="E-mail"
-              id="footer-form-email"
-              required
-            />
+            <label for="footer-form-email" class="footer-label">
+              <input
+                type="email"
+                name="footer-form-email"
+                class="footer-form-input"
+                placeholder="E-mail"
+                id="footer-form-email"
+                required
+              />
+            </label>
             <button type="submit" class="footer-form-botton">
               Subscribe
               <svg class="footer-form-icon" width="24" height="24">
@@ -564,10 +565,10 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-text"
-              id="user-text"
+              id="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
@@ -576,17 +577,18 @@
             <input
               class="modal-check visually-hidden"
               type="checkbox"
-              name="terms"
-              id="terms"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="check-tex" for="terms">
+            <label class="check-tex" for="user-privacy">
               <span class="check-tex-box">
-                <svg class="check-tex-icon" width="10" height="10">
+                <svg class="check-tex-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector-1"></use>
                 </svg> </span
               >I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label
+              <a class="check-text-linc" href="">Privacy Policy</a></label
             >
           </div>
 
