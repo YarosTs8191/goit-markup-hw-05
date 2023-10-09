@@ -913,7 +913,6 @@ img {
 }
 
 .check-tex {
-  display: flex;
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
   letter-spacing: 0.04em;
