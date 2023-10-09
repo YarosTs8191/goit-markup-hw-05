@@ -919,7 +919,7 @@ img {
   line-height: 1.17;
 }
 
-.check-tex.check-tex-box {
+.check-tex-box {
   display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
