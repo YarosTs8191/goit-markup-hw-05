@@ -834,8 +834,12 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-field .field-butom {
+.field-butom {
   margin-bottom: 24px;
+}
+
+.field-comment {
+  margin-bottom: 16px;
 }
 
 .modal-label {
